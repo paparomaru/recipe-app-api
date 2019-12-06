@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titles</title>
+</head>
+<body>
+
+   {% for title in object_list %}
+       <p> {{title.date_added}} {{title.title}} </p>
+    {% endfor %}
+
+</body>
+</html>
